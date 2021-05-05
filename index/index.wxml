@@ -1,0 +1,105 @@
+<view class="menu" wx:if="{{is}}">
+  <image class="menu-Mobile" src="../image/menu-backup@2x.png" bindtap="hide"></image>
+  <view class="clear"></view>
+  <view class="menu-content menu-content-head">
+    首页
+    <view class="menu-content-head-line"></view>
+  </view>
+  <view class="menu-content">博客文章</view>
+  <view class="menu-content">技术分享</view>
+  <view class="menu-content">关于我们</view>
+  <image class="menu-image" src="../image/moon-copy-copy@2x.png"></image>
+  <image class="menu-image" src="../image/English@2x.png"></image>
+  <image class="menu-image" src="../image/subscribe@2x.png"></image>
+</view>
+
+<!-- <view class="menu-blur" wx:if="{{is}}"></view> -->
+
+<view class="page">
+  <image class="logo" src="../image/logo@2x.png"></image>
+  <image class="menu-Mobile" bindtap="toMenu" src="../image/menu-Mobile@2x.png"></image>
+  <view class="clear"></view>
+  <view class="Line"></view>
+  <view class="title">小程序 TabBar 创意动画</view>
+  <view class="sub_title">精美小巧的动画，让你耳目一新</view>
+  <view class="show" >去看看</view>
+  <image class="banner-man" src="../image/banner-man@2x.png"></image>
+  <view class="intro">
+    <view class="intro-content">
+      <image class="intro-content-image" src="../image/icon-laptop@2x.png"></image>
+      <view class="intro-content-text">用户体验</view>
+      <view class="intro-content-line"></view> 
+      <view class="intro-content-content">擅长响应式设计 精准还原设计稿 强调组件化开发</view>
+    </view>
+    <view class="intro-content">
+      <image class="intro-content-image" src="../image/icon-star@2x.png"></image>
+      <view class="intro-content-text">用户体验</view>
+      <view class="intro-content-line"></view>
+      <view class="intro-content-content">擅长响应式设计 精准还原设计稿 强调组件化开发</view>
+    </view>
+    <view class="intro-content">
+      <image class="intro-content-image" src="../image/icon-animation@2x.png"></image>
+      <view class="intro-content-text">交互动画</view>
+      <view class="intro-content-line"></view>
+      <view class="intro-content-content">熟悉基础动画 创新动画专题 分享动画心得</view>
+    </view>
+    <view class="intro-content">
+      <image class="intro-content-image" src="../image/icon-creative@2x.png"></image>
+      <view class="intro-content-text">开源创造</view>
+      <view class="intro-content-line"></view>
+      <view class="intro-content-content">参与开源组织 开源精巧组件 热心开发者群体</view>
+    </view>
+    <view class="clear"></view>
+  </view>
+</view>
+
+<view class="person-title">
+  <view class="person-title-background">
+    ABOUT ME
+  </view>
+
+  <view class="person-title-text"><text>个人</text>介绍</view>
+</view>
+
+<image class="person-image" src="../image/Bitmap@2x.png"></image>
+
+<view class="person-intro">
+  <view class="person-intro-title">资深 Web 前端工程师</view>
+  <view class="person-intro-content">嘻师傅，资深 Web 前端工程师，有过多年的大厂工作经验，目前就职于 XX XXX。擅长领域为用户体验、交互动画，在 Web
+    响应式网页设计、小程序基础架构、多端账户统一登录有所研究。个人作品有 xx 小程序，著有《从0到1开发一个智能头像识别小程》小册。</view>
+  <view class="person-intro-more">MORE</view>
+  <view class="clear"></view>
+  <view class="person-intro-progress">
+    <view class="person-intro-progress-content">
+      <image class="person-intro-progress-content-image" src="../image/icon-1@2x.png"></image>
+      <view class="person-intro-progress-content-num">07</view>
+      <view class="person-intro-progress-content-remark">7年工作经验</view>
+    </view>
+    <view class="person-intro-progress-content">
+      <image class="person-intro-progress-content-image" src="../image/icon-2@2x.png"></image>
+      <view class="person-intro-progress-content-num">12</view>
+      <view class="person-intro-progress-content-remark">12篇技术文章</view>
+    </view>
+    <view class="person-intro-progress-content">
+      <image class="person-intro-progress-content-image" src="../image/icon-3@2x.png"></image>
+      <view class="person-intro-progress-content-num">01</view>
+      <view class="person-intro-progress-content-remark">1本技术小册</view>
+    </view>
+    <view class="person-intro-progress-content">
+      <image class="person-intro-progress-content-image" src="../image/icon-4@2x.png"></image>
+      <view class="person-intro-progress-content-num">04</view>
+      <view class="person-intro-progress-content-remark">4个开源组件</view>
+    </view>
+    <view class="person-intro-progress-content">
+      <image class="person-intro-progress-content-image" src="../image/icon-5@2x.png"></image>
+      <view class="person-intro-progress-content-num">20</view>
+      <view class="person-intro-progress-content-remark">20次技术分享</view>
+    </view>
+    <view class="person-intro-progress-content">
+      <image class="person-intro-progress-content-image" src="../image/icon-6@2x.png"></image>
+      <view class="person-intro-progress-content-num">03</view>
+      <view class="person-intro-progress-content-remark">3个开源贡献</view>
+    </view>
+    <view class="clear"></view>
+  </view>
+</view>

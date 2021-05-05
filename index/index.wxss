@@ -1,0 +1,264 @@
+page{
+  /* background:#0D5AFE; */
+  text-align: center;
+  
+}
+
+.blur{
+  filter: blur(8rx);
+}
+
+.page{
+  background:#0D5AFE;
+}
+
+.clear{
+  clear: both;
+  /* color: #ffffff; */
+}
+
+.logo{
+  width:234rpx;
+  height:108rpx;
+  margin:32rpx 32rpx 0;
+  float:left;
+}
+
+.menu-Mobile{
+  width: 52rpx;
+  height:34rpx;
+  margin:70rpx 62rpx 0;
+  float: right;
+}
+
+.Line{
+  width: 128rpx;
+  height:2rpx;
+  background:#ffffff;
+  display: inline-block;
+}
+
+.title{
+  color:#ffffff;
+  font-size:56rpx;
+  line-height:80rpx;
+  margin-top:58rpx;
+}
+
+.sub_title{
+  color:#ffffff;
+  font-size:40rpx;
+  line-height:56rpx;
+  margin-top:32rpx;
+  font-weight:lighter;
+}
+
+.show{
+  display: inline-block;
+  width:240rpx;
+  height:72rpx;
+  border:2rpx solid #ffffff;
+  line-height: 72rpx;
+  color:#ffffff;
+  font-size:32rpx;
+  font-weight:lighter;
+  margin-top:52rpx;
+}
+
+.banner-man{
+  width:560rpx;
+  height:507rpx;
+  margin-top:38rpx;
+}
+
+.intro{
+  position: relative;
+  top:-38rpx;
+  left:12rpx;
+  display: block;
+  text-align: left;
+  width:732rpx;
+}
+
+.intro-content{
+  width:320rpx;
+  height:380rpx;
+  margin: 0rpx 23rpx 32rpx 23rpx;
+  background:#ffffff;
+  float:left;
+}
+
+.intro-content-image{
+  width:96rpx;
+  height:65rpx;
+  margin:32rpx;
+}
+
+.intro-content-text{
+  font-size:36rpx;
+  line-height: 50rpx;
+  color:#333333;
+  margin-left:32rpx;
+}
+
+.intro-content-line{
+  width:96rpx;
+  height: 6rpx;
+  background:#0D5AFE;
+  margin-left:32rpx;
+}
+
+.intro-content-content{
+  height:132rpx;
+  width:224rpx;
+  font-size:32rpx;
+  color: #777777;
+  line-height: 44rpx;
+  margin:14rpx 34rpx;
+}
+
+.person-title{
+  /* position: relative; */
+  line-height:330rpx;
+  background: #ffffff;
+  font-size:76rpx;
+  color: #0D5AFE;
+  position: relative;
+}
+
+.person-title-background{
+  opacity:0.05;
+}
+
+.person-title-text{
+  position: absolute;
+  left:218rpx;
+  top:154rpx;
+  font-size:64rpx;
+  font-weight: bold;
+  line-height: 90rpx;
+}
+
+.person-title-text text{
+  color: #333333;
+}
+
+.person-image{
+  width:100%;
+  height:476rpx;
+}
+
+.person-intro{
+  height:568rpx;
+  width: 100%;
+  background: #ffffff;
+}
+
+.person-intro-title{
+  display: inline-block;
+  font-size: 48rpx;
+  line-height: 66rpx;
+  margin-top: 80rpx;
+}
+
+.person-intro-content{
+  display: inline-block;
+  width:686rpx;
+  margin-top:40rpx;
+  font-size:32rpx;
+  text-align: left;
+}
+
+.person-intro-more{
+  width:192rpx;
+  line-height: 64rpx;
+  margin:34rpx 32rpx;
+  float:right;
+  background: #0D5AFE;
+  color: #ffffff;
+}
+
+.person-intro-progress{
+  height:626rpx;
+  background: #ffffff;
+}
+
+.person-intro-progress-content{
+  display: block;
+  width:250rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  float:left;
+}
+
+.person-intro-progress-content-image{
+  width:140rpx;
+  height:120rpx;
+}
+
+.person-intro-progress-content-num{
+  font-size:72rpx;
+  line-height: 100rpx;
+}
+
+.person-intro-progress-content-remark{
+  font-size: 28rpx;
+  color: #777777;
+  line-height: 40rpx;
+}
+
+.menu::before{
+  content:'';
+  position: fixed;
+  height:100vh;
+  width:100vw;
+  background: rgba(13,90,254, 0.85);
+  z-index: -1;
+  /* padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom); */
+  filter: blur(8px);
+  /* background-size:cover; */
+}
+
+.menu{
+  position: fixed;
+  height:100vh;
+  width:100vw;
+  background: rgba(13,90,254, 0.85);
+  z-index: 1;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  /* filter: blur(16rpx); */
+}
+
+.menu-content{
+  text-align: left;
+  color: #ffffff;
+  margin-left: 96rpx;
+  font-size:48rpx;
+  margin-top: 25rpx;
+  line-height:66rpx;
+  font-weight: lighter;
+}
+
+.menu-content-head{
+  display: block;
+  font-weight: normal;
+  margin-top: 35rpx;
+  width:96rpx;
+}
+
+.menu-content-head-line{
+  /* display: block; */
+  width:32rpx;
+  height:4rpx;
+  background: #ffffff;
+  margin-left:32rpx;
+}
+
+.menu-image{
+  width:40rpx;
+  height:40rpx;
+  margin:100rpx 0 0 100rpx;
+  float:left;
+}
