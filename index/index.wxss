@@ -231,6 +231,13 @@ page{
   /* filter: blur(16rpx); */
 }
 
+.menu-Exit{
+  width:54rpx;
+  height:54rpx;
+  margin: 60rpx;
+  float:right;
+}
+
 .menu-content{
   text-align: left;
   color: #ffffff;
@@ -260,5 +267,12 @@ page{
   width:40rpx;
   height:40rpx;
   margin:100rpx 0 0 100rpx;
+  float:left;
+}
+
+.menu-en{
+  width:48rpx;
+  height:48rpx;
+  margin:96rpx 0 0 96rpx;
   float:left;
 }

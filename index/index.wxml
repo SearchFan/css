@@ -1,6 +1,9 @@
 <view class="menu" wx:if="{{is}}">
-  <image class="menu-Mobile" src="../image/menu-backup@2x.png" bindtap="hide"></image>
+  <image class="menu-Exit" src="../image/menu-backup@2x.png" bindtap="hide"></image>
   <view class="clear"></view>
+  <!-- <view class=""> 
+
+  </view> -->
   <view class="menu-content menu-content-head">
     首页
     <view class="menu-content-head-line"></view>
@@ -9,7 +12,7 @@
   <view class="menu-content">技术分享</view>
   <view class="menu-content">关于我们</view>
   <image class="menu-image" src="../image/moon-copy-copy@2x.png"></image>
-  <image class="menu-image" src="../image/English@2x.png"></image>
+  <image class="menu-en" src="../image/English@2x.png"></image>
   <image class="menu-image" src="../image/subscribe@2x.png"></image>
 </view>
 
